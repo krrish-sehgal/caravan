@@ -1,0 +1,19 @@
+
+> @caravan/bitcoin@0.3.1 build
+> tsup src/index.ts --format cjs,esm --dts
+
+CLI Building entry: src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v7.2.0
+CLI Using tsup config: /home/runner/work/caravan/caravan/packages/caravan-bitcoin/tsup.config.ts
+CLI Target: esnext
+CJS Build start
+ESM Build start
+CJS dist/index.js 295.98 KB
+CJS ⚡️ Build success in 101ms
+ESM dist/index.mjs 285.72 KB
+ESM ⚡️ Build success in 102ms
+DTS Build start
+DTS ⚡️ Build success in 2034ms
+DTS dist/index.d.ts  68.14 KB
+DTS dist/index.d.mts 68.14 KB

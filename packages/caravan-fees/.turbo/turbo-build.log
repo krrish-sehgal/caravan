@@ -1,0 +1,19 @@
+
+> @caravan/fees@1.0.0-beta build
+> tsup src/index.ts --format cjs,esm --dts
+
+CLI Building entry: src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v7.2.0
+CLI Using tsup config: /home/runner/work/caravan/caravan/packages/caravan-fees/tsup.config.ts
+CLI Target: esnext
+CJS Build start
+ESM Build start
+ESM dist/index.mjs 131.42 KB
+ESM ⚡️ Build success in 129ms
+CJS dist/index.js 135.78 KB
+CJS ⚡️ Build success in 132ms
+DTS Build start
+DTS ⚡️ Build success in 2643ms
+DTS dist/index.d.ts  70.87 KB
+DTS dist/index.d.mts 70.87 KB

@@ -1,0 +1,41 @@
+
+> @caravan/wallets@0.5.1 build
+> tsup src/index.ts --format cjs,esm --dts
+
+CLI Building entry: src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v7.2.0
+CLI Using tsup config: /home/runner/work/caravan/caravan/packages/caravan-wallets/tsup.config.ts
+CLI Target: esnext
+CJS Build start
+ESM Build start
+DTS Build start
+
+ WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
+
+    ../caravan-psbt/dist/index.mjs:30619:9:
+[37m      30619 │   return [32meval[37m((this || _global$b).code);
+            ╵          [32m~~~~[0m
+
+  You can read more about direct eval and bundling here: [4mhttps://esbuild.github.io/link/direct-eval[0m
+
+
+
+CJS dist/index.js 4.13 MB
+CJS ⚡️ Build success in 1158ms
+
+ WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
+
+    ../caravan-psbt/dist/index.mjs:30619:9:
+[37m      30619 │   return [32meval[37m((this || _global$b).code);
+            ╵          [32m~~~~[0m
+
+  You can read more about direct eval and bundling here: [4mhttps://esbuild.github.io/link/direct-eval[0m
+
+
+
+ESM dist/index.mjs 4.13 MB
+ESM ⚡️ Build success in 1208ms
+DTS ⚡️ Build success in 3913ms
+DTS dist/index.d.ts  79.28 KB
+DTS dist/index.d.mts 79.28 KB

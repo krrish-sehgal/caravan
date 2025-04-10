@@ -1,0 +1,19 @@
+
+> @caravan/bip32@1.0.0 build
+> tsup src/index.ts --format cjs,esm --dts
+
+CLI Building entry: src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v7.2.0
+CLI Using tsup config: /home/runner/work/caravan/caravan/packages/bip32/tsup.config.js
+CLI Target: esnext
+CJS Build start
+ESM Build start
+ESM dist/index.js 5.26 KB
+ESM ⚡️ Build success in 55ms
+CJS dist/index.cjs 7.36 KB
+CJS ⚡️ Build success in 56ms
+DTS Build start
+DTS ⚡️ Build success in 2946ms
+DTS dist/index.d.cts 3.84 KB
+DTS dist/index.d.ts  3.84 KB
