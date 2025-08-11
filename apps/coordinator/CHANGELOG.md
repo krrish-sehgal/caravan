@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.11.3
+
+### Patch Changes
+
+- [#369](https://github.com/caravan-bitcoin/caravan/pull/369) [`66c44d2`](https://github.com/caravan-bitcoin/caravan/commit/66c44d2f09a22a49b1faf5e84ac50315a120b279) Thanks [@bucko13](https://github.com/bucko13)! - Include bip32 derivation for change output in unsignedPsbt
+
+- Updated dependencies [[`625191d`](https://github.com/caravan-bitcoin/caravan/commit/625191ddc8e1ddb1292c033448fee4fd77007aa6)]:
+  - @caravan/clients@0.6.1
+
 ## 1.11.2
 
 ### Patch Changes
